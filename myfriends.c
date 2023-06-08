@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
-// system("cls");나 Sleep()을 위해 windows.h 사용. 만약 순수 gcc로 컴파일 할 경우 다른 헤더 파일로 수정 필요
+// system("cls");나 Sleep()을 위해 windows.h 사용
+// 만약 순수 gcc로 컴파일 할 경우 다른 헤더 파일(unistd.h) 및 해당 명령어로 수정 필요
 #include <conio.h>
 // 키보드 입력 대기를 받으려는 함수를 쓰기위해 include했으나 미사용
 #include <time.h>
@@ -781,6 +782,6 @@ int main() //프로그램 시작
     IfMood();
     IfGoodEnding();
   }
-  
+
   return 0;
 }
