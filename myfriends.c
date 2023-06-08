@@ -3,8 +3,9 @@
 #include <windows.h>
 // system("cls");나 Sleep()을 위해 windows.h 사용. 만약 순수 gcc로 컴파일 할 경우 다른 헤더 파일로 수정 필요
 #include <conio.h>
-// 키보드 입력 대기를 받으려는 함수를 쓰기위해 include했으나 미사용.
+// 키보드 입력 대기를 받으려는 함수를 쓰기위해 include했으나 미사용
 #include <time.h>
+// 시간 흐르는 기능 구현하려 include했으나 미사용
 
 // 파라메터
 char name[256] = {'\0'};
